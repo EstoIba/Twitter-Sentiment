@@ -11,10 +11,10 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import regex
 import pandas as pd
 
-consumer_key = 'D5N8B0YT1CUq9MRrzpQ7w7tZP'
-consumer_secret = '46p2fGkQFPQsxNT8xBG1DJCbddBcoHMkHyqaBbNNfvoqOeRSaE'
-access_token = '1720598647-uJRKmu80bCXmqerxroKcM0DM2DKzuVqrrlsKrf9'
-access_token_secret = 'pQvA4EwJj79FiElLkYpn3Kl8RJ1wT9ZNmOr9YadSUDvu8'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
